@@ -1,0 +1,39 @@
+.contactContainer {
+    width: 100%;
+    height: 500px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.contactContent {
+    font-size: 22px;
+}
+
+.contactContent p {
+    padding-bottom: 25px;
+}
+
+.qrCode {
+    padding-top: 25px;
+}
+
+@media screen and (max-width: 450px) { 
+
+    .contactContainer {
+        padding-top: 0px;
+    }
+
+    .contactContent {
+        font-size: 20px;
+    }
+    
+    .contactContent p {
+        padding-bottom: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    .qrCode {
+        padding-top: 25px;
+    }
+}

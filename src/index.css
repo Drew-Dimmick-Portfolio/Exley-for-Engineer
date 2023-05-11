@@ -1,0 +1,16 @@
+.body {
+  background-color: #D4D4D4;
+}
+
+body {
+  font-family: gotham;
+  margin: 0px;
+  /* background-image: url('./img/Wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+@font-face {
+  font-family: gotham;
+  src: url('./gotham/GothamBook.ttf');
+}

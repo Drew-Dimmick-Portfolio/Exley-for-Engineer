@@ -1,0 +1,73 @@
+.aboutHeader {
+    width: 100%;
+    height: 500px;
+    background-image: url('./img/lakeCounty.jpg');
+    margin-bottom: 100px;
+    background-position: 0px -100px; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: 5px solid #2E2C17;
+    transition: all 1s;
+}
+
+.aboutHeader:hover {
+    background-position: 0px -250px; 
+}
+
+.aboutContent {
+    width: 1000px;
+    margin: auto;
+    /* margin-top: 60px; */
+}
+
+.imageContent {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    font-size: 20px;
+}
+
+.imageContent img {
+    width: 500px;
+    padding-top: 100px;
+}
+
+.bio {
+    margin-left: 35px;
+}
+
+.aboutHeaderText {
+    font-size: 30px;
+}
+
+.bioText {
+    font-size: 18px;
+    line-height: 1.6;
+    color: rgb(106, 106, 106);
+}
+
+@media screen and (max-width: 450px) { 
+    .aboutContent {
+        width: 100%;
+        margin: auto;
+        /* margin-top: 60px; */
+    }
+
+    .imageContent {
+        display: grid;
+        grid-template-columns: auto;
+        font-size: 20px;
+    }
+
+    .imageContent img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        padding-top: 0px;
+    }
+
+    .bio {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+}

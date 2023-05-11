@@ -1,0 +1,109 @@
+.largeImageContainer {
+    height: 600px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    padding-top: 15px;
+    /* box-shadow: 0px 10px 15px #acacac; */
+}
+
+.imageDescription {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    background-color: #181c64;
+    height: 600px;
+}
+
+.imageDescriptionText {
+    margin: 20px;
+}
+
+.imageDescriptionText p {
+    color: white;
+    font-size: 18px;
+    padding: 0px 20px;
+}
+
+.imageDescriptionText h1 {
+    color: white;
+    padding: 0px 20px;
+}
+
+.donateButton {
+    /* margin-top: 470px; */
+    display: flex;
+    text-align: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.donateButton button {
+    width: 250px;
+    height: 75px;
+    color: Black;
+    background-color: white;
+    border: none;
+    font-size: 24px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #1d2d67;
+    transition: all 0.15s;
+}
+
+.donateButton button:hover {
+    margin-top: -5px;
+    box-shadow: 5px 5px 20px #101a3a;
+}
+
+.donateButton p {
+    float: left;
+    padding-left: 25px;
+    margin-top: 22px;
+}
+
+.checkIcon {
+    height: 25px;
+    margin-left: 65px;
+    padding-top: 22px;
+}
+
+.largeImage {
+    overflow: hidden;
+    background-image: url('./img/Wallpaper.jpg');
+    background-position: 0px -100px; 
+    background-repeat: no-repeat;
+}
+
+.largeImage img {
+    width: 20%;
+    margin-top: 414px;
+    margin-left: 20px;
+    box-shadow: 5px 5px 15px #303030;
+}
+
+@media screen and (max-width: 450px) { 
+
+    .largeImageContainer {
+        padding-top: 0px;
+    }
+
+    .imageDescription {
+        display: grid;
+        grid-template-rows: 3fr 1fr;
+        background-image: url('./img/Wallpaper.jpg');
+        height: 600px;
+    }
+
+    .donateButton button {
+        box-shadow: 5px 5px 15px #5f5f5f;
+    }
+
+    .largeImageContainer {
+        height: 600px;
+        display: block;
+    }
+
+    .imageDescriptionText p {
+        color: white;
+        font-size: 20px;
+        padding: 0px 20px;
+    }
+}

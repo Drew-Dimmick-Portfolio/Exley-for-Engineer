@@ -1,0 +1,32 @@
+.newsContainer {
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.newsContainer p {
+    font-size: 34px;
+}
+
+.newsContainer img {
+    width: 80%;
+    height: auto;
+}
+
+@media screen and (max-width: 450px) { 
+
+    .newsContainer {
+        padding-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .newsContainer p {
+        font-size: 28px;
+    }
+
+    .newsContainer img {
+        width: 100%;
+        height: auto;
+    }
+}

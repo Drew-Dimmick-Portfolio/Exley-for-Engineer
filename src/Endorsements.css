@@ -1,0 +1,32 @@
+.endorsementsContainer {
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.endorsementsContainer p {
+    font-size: 34px;
+}
+
+.endorsementsContainer img {
+    width: 80%;
+    height: auto;
+}
+
+@media screen and (max-width: 450px) { 
+
+    .endorsementsContainer {
+        padding-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .endorsementsContainer p {
+        font-size: 28px;
+    }
+
+    .endorsementsContainer img {
+        width: 100%;
+        height: auto;
+    }
+}
