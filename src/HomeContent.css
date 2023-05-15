@@ -1,3 +1,8 @@
+@font-face {
+    font-family: gotham;
+    src: url('./gotham/GothamBook.ttf');
+  }
+
 .largeImageContainer {
     height: 600px;
     display: grid;
@@ -15,6 +20,8 @@
 
 .imageDescriptionText {
     margin: 20px;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .imageDescriptionText p {
@@ -105,5 +112,22 @@
         color: white;
         font-size: 20px;
         padding: 0px 20px;
+    }
+
+    .imageDescriptionText {
+        margin: 20px;
+        z-index: 1;
+    }
+
+    .donateButton p {
+        float: left;
+        padding-left: 20px;
+        margin-top: 25px;
+    }
+
+    .checkIcon {
+        height: 25px;
+        margin-left: 65px;
+        padding-top: 25px;
     }
 }
